@@ -1,0 +1,6 @@
+-- What is the no. of houses apartment and penthouses in Uruguay that are up for selling
+SELECT property_type,
+ count(property_type)AS Frequency
+  FROM `properati-data-public.properties_uy.properties_sell_201711`
+   group by property_type 
+   order by Count(property_type)DESC 
