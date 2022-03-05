@@ -1,0 +1,4 @@
+--WHAT IS THE AVERAGE OUTPATIENT AND INPATIENT CHARGES FOR THE YEAR 2012
+SELECT AVG (average_total_payments) FROM `bigquery-public-data.cms_medicare.inpatient_charges_2012` 
+UNION all  
+SELECT AVG(average_total_payments) FROM `bigquery-public-data.cms_medicare.outpatient_charges_2012`
