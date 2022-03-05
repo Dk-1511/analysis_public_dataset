@@ -1,0 +1,5 @@
+--What are the item that are available in inventory and were ordered?
+SELECT INVENTORY_DATA.product_id AS PRODUCT_AVAILABLE_IN_INVENTORY, ORDERED_ITEMS.product_id AS ORDERED_ITEM_LIST FROM `bigquery-public-data.thelook_ecommerce.inventory_items` AS INVENTORY_DATA 
+RIGHT JOIN `bigquery-public-data.thelook_ecommerce.order_items`AS ORDERED_ITEMS
+ON INVENTORY_DATA.product_id = ORDERED_ITEMS.product_id
+limit 15
