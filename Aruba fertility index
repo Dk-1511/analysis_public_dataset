@@ -1,0 +1,4 @@
+--Find the fertility index of ARUBA from Census bureau international fertility data
+SELECT *
+FROM `bigquery-public-data.census_bureau_international.age_specific_fertility_rates` 
+WHERE country_name= 'Aruba' 
