@@ -1,0 +1,4 @@
+--WHICH CRIME HAVE OCCURED IN BOTH AUSTIN AND CHICAGO 
+SELECT AUSTIN_CRIME.unique_key AS AUSTIN_CRIME_UNIQUE_KEY,CHICAGO_CRIME.unique_key AS CHICAGO_CRIME_UNIQUE_KEY FROM `bigquery-public-data.austin_crime.crime` AS austin_crime
+INNER JOIN `bigquery-public-data.chicago_crime.crime`AS CHICAGO_CRIME
+ON AUSTIN_CRIME.unique_key=CHICAGO_CRIME.unique_key
