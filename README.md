@@ -2,8 +2,11 @@
 various SQL Functions are used in analysis of different Public data set available on google big query
 
 1. mean property rent in Argentina in feb'2015
+
 ![image](https://user-images.githubusercontent.com/100989906/156873439-58c48118-8095-43a1-8d14-1e99d6b3641d.png)
+
 2.What is the no. of houses apartment and penthouses in Uruguay that are up for selling
+![image](https://user-images.githubusercontent.com/100989906/156873856-0125e443-d220-4b64-924e-213b832412ef.png)
 
 3.How many properties are there for renting in columbia that  are available for renting and have area more than 2000 square meters 
 ![image](https://user-images.githubusercontent.com/100989906/156873682-a488a39a-9306-479c-a903-9dd8eab19d1e.png)
@@ -22,7 +25,6 @@ various SQL Functions are used in analysis of different Public data set availabl
 
 
 7. WHAT IS THE AVERAGE OUTPATIENT AND INPATIENT CHARGES FOR THE YEAR 2012
-
 ![image](https://user-images.githubusercontent.com/100989906/156873748-627a724f-41d2-4218-827f-58b1334dc027.png)
 
 
@@ -31,7 +33,6 @@ various SQL Functions are used in analysis of different Public data set availabl
 
 
 9.What are the item that are available in inventory and were ordered?
-
 ![image](https://user-images.githubusercontent.com/100989906/156873785-acc03f1e-7510-4519-a2fb-7c3682d1ebc1.png)
 
 10. FIND ALL THE VACCINATION PROVIDING STAFF ID THAT WERE THERE WORKING IN DRIVE ONLY AND IN NORMAL VACCINATION 
