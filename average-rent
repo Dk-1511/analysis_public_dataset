@@ -1,0 +1,2 @@
+--What is the average property rent in Argentina in US dollars
+SELECT Avg (price_aprox_usd) AS MEAN_RENT FROM `properati-data-public.properties_ar.properties_rent_201502` 
