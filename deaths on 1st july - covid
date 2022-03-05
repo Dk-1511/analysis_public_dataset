@@ -1,0 +1,4 @@
+--No. of worldwide deaths on dates 1st and 2nd july 2021 due to covid 
+SELECT sum(deaths)
+ FROM `bigquery-public-data.covid19_jhu_csse.summary` 
+ where date between '2021-07-01' AND '2021-07-02' 
