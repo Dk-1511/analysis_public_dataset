@@ -1,0 +1,4 @@
+--How many properties are there for renting in columbia that  are available for renting and have area more than 5000 square meters 
+SELECT surface_covered_in_m2 
+FROM `properati-data-public.properties_cl.properties_rent_201610`
+ where surface_covered_in_m2 >2000
